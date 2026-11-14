@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a9d9ff">
+<title>MAIN CHARACTER ✦</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Nunito:wght@400;600;700;800;900&display=swap');
+:root{--sky:#a9d9ff;--sky2:#e3f4ff;--blue:#367db5;--deep:#20577f;--yellow:#ffe36e;--yellow2:#fff5bd;--ink:#17324a;--muted:#668097;--paper:#fffdf5;--white:#fff;--line:#c7e5f8;--pink:#ffbfd3;--green:#c7edcf;--shadow:0 7px 0 rgba(32,87,127,.12),0 13px 25px rgba(32,87,127,.08)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#e8f6ff,#fff9dd);color:var(--ink);font-family:Nunito,system-ui,sans-serif;min-height:100vh}button,input,select,textarea{font:inherit}button{cursor:pointer}.shell{max-width:1450px;margin:auto;padding:20px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}.brand{display:flex;align-items:center;gap:12px}.logo{width:54px;height:54px;border:3px solid var(--ink);border-radius:16px;background:var(--yellow);display:grid;place-items:center;font-size:27px;box-shadow:4px 4px 0 var(--ink);transform:rotate(-4deg)}.brand h1{font-size:clamp(20px,3vw,30px);line-height:1;margin:0;font-weight:1000;letter-spacing:-1.5px}.brand small{display:block;font:11px 'DM Mono',monospace;color:var(--muted);margin-top:5px;letter-spacing:1.5px}.top-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.pill{border:2px solid var(--ink);border-radius:999px;background:white;padding:9px 14px;font-size:12px;font-weight:900;box-shadow:3px 3px 0 var(--ink)}.pill.yellow{background:var(--yellow)}.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:18px}.sidebar,.panel,.hero{border:2px solid var(--ink);border-radius:20px;box-shadow:var(--shadow)}.sidebar{background:var(--sky);padding:16px;height:max-content;position:sticky;top:14px}.side-label{font:10px 'DM Mono',monospace;letter-spacing:2px;color:var(--deep);margin:5px 8px 12px}.nav{display:grid;gap:7px}.nav button{border:0;text-align:left;padding:11px 12px;border-radius:12px;background:transparent;color:var(--ink);font-weight:900;display:flex;gap:10px;align-items:center}.nav button:hover,.nav button.active{background:white;box-shadow:3px 3px 0 var(--ink)}.nav .ico{width:22px;text-align:center;font-size:17px}.sidebar-note{margin-top:18px;padding:12px;background:var(--yellow2);border:1.5px dashed var(--ink);border-radius:13px;font-size:12px;font-weight:800;line-height:1.5}main{min-width:0}.hero{padding:22px 24px;background:var(--yellow);display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:16px;overflow:hidden;position:relative}.hero:after{content:"✦";position:absolute;right:25%;top:-28px;font-size:120px;opacity:.18;transform:rotate(15deg)}.hero h2{font-size:clamp(24px,4vw,38px);margin:0 0 5px;letter-spacing:-1.5px;line-height:1.05}.hero p{margin:0;font-weight:700;color:#52677a}.hero-date{z-index:1;text-align:right;font:12px 'DM Mono',monospace;line-height:1.8;background:#fff9d9;border:2px solid var(--ink);border-radius:13px;padding:10px 13px;min-width:130px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}.stat{background:white;border:2px solid var(--ink);border-radius:16px;padding:14px;box-shadow:3px 4px 0 rgba(23,50,74,.12)}.stat .s-icon{font-size:20px}.stat strong{display:block;font-size:25px;line-height:1.1;margin:5px 0 2px}.stat span:last-child{font:10px 'DM Mono',monospace;color:var(--muted);letter-spacing:1px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.panel{background:var(--paper);padding:17px;min-width:0}.panel.wide{grid-column:1/-1}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:13px}.panel h3{margin:0;font-size:17px;letter-spacing:-.4px}.eyebrow{font:10px 'DM Mono',monospace;color:var(--muted);letter-spacing:1.3px}.btn{border:2px solid var(--ink);background:var(--sky);border-radius:10px;padding:8px 11px;font-size:12px;font-weight:900;box-shadow:2px 3px 0 var(--ink)}.btn.yellow{background:var(--yellow)}.btn.pink{background:var(--pink)}.btn.small{padding:5px 8px;font-size:11px}.btn:active,.pill:active{transform:translate(2px,2px);box-shadow:none}.field{width:100%;border:1.5px solid #a9cde5;border-radius:10px;padding:10px 11px;background:white;color:var(--ink);outline:none}.field:focus{border-color:var(--blue);box-shadow:0 0 0 3px #d8efff}.form-row{display:flex;gap:8px;margin:9px 0}.form-row>*{min-width:0}.task-list,.habit-list,.entry-list{display:grid;gap:8px}.task,.habit,.entry{display:flex;align-items:center;gap:9px;padding:9px 10px;background:white;border:1px solid var(--line);border-radius:11px}.task input,.habit input{accent-color:var(--blue);width:17px;height:17px}.task.done .task-name{text-decoration:line-through;color:#8ba0af}.task-name{flex:1;font-weight:800;font-size:13px;overflow-wrap:anywhere}.tag{font:9px 'DM Mono',monospace;padding:4px 6px;background:var(--yellow2);border-radius:6px}.delete{border:0;background:transparent;color:#8a9aaa;font-size:17px;padding:2px 5px}.delete:hover{color:#d44}.progress{height:10px;background:#e4f2fb;border-radius:99px;overflow:hidden;border:1px solid #b8d9ef}.progress>span{display:block;height:100%;background:var(--blue);border-radius:99px;transition:width .2s}.habit-meta{margin-left:auto;font:10px 'DM Mono',monospace;color:var(--muted)}.empty{padding:16px;text-align:center;color:var(--muted);font-size:12px;border:1px dashed var(--line);border-radius:11px}.money-total{font-size:30px;font-weight:1000;letter-spacing:-1px}.money-sub{color:var(--muted);font-size:11px;font-weight:800}.money-bars{display:flex;gap:8px;margin:12px 0}.money-bar{flex:1;background:var(--sky2);border-radius:9px;padding:9px}.money-bar strong{display:block;font-size:16px}.money-bar small{font:9px 'DM Mono',monospace;color:var(--muted)}.entry{justify-content:space-between;font-size:12px;font-weight:800}.entry span:nth-child(2){margin-left:auto}.positive{color:#25824d}.negative{color:#c34e5b}.goal{padding:11px;background:white;border:1px solid var(--line);border-radius:12px;margin-bottom:8px}.goal-top{display:flex;justify-content:space-between;gap:8px;font-weight:900;font-size:13px}.goal small{color:var(--muted);font:10px 'DM Mono',monospace}.goal .progress{margin-top:8px}.moods{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.mood{border:1.5px solid var(--line);background:white;border-radius:11px;padding:9px 3px;font-size:22px}.mood span{display:block;font:9px 'DM Mono',monospace;margin-top:4px}.mood.selected{background:var(--yellow2);border:2px solid var(--ink);box-shadow:2px 2px 0 var(--ink)}textarea.field{resize:vertical;min-height:90px}.quote{font-size:17px;font-weight:900;line-height:1.4;background:var(--sky2);border-radius:13px;padding:15px;margin:5px 0 12px}.wheel-result{font-size:18px;font-weight:1000;text-align:center;padding:16px;background:var(--yellow2);border-radius:12px;margin-top:10px;min-height:55px}.profile{display:flex;gap:14px;align-items:center}.avatar{width:65px;height:65px;border-radius:20px;border:2px solid var(--ink);background:var(--pink);display:grid;place-items:center;font-size:32px}.profile h4{margin:0;font-size:18px}.profile p{margin:3px 0;color:var(--muted);font-size:11px}.profile-form{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}.profile-form .full{grid-column:1/-1}.achievement{display:inline-block;background:var(--yellow2);border:1px solid #e9d26b;border-radius:999px;padding:6px 9px;margin:4px 3px 0 0;font-size:10px;font-weight:900}.view{display:none}.view.active{display:block}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;padding:11px 16px;border-radius:999px;font-size:12px;font-weight:900;opacity:0;pointer-events:none;transition:opacity .2s;z-index:20}.toast.show{opacity:1}.footer{text-align:center;padding:20px 0 5px;color:var(--muted);font:10px 'DM Mono',monospace}.mobile-nav{display:none}
+@media(max-width:900px){.layout{grid-template-columns:190px minmax(0,1fr)}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.shell{padding:12px 12px 86px}.topbar{align-items:flex-start}.brand h1{font-size:21px}.logo{width:45px;height:45px}.top-actions .pill{padding:7px 9px;font-size:10px}.layout{display:block}.sidebar{display:none}.hero{padding:17px;align-items:flex-start}.hero-date{font-size:10px;min-width:105px}.grid{grid-template-columns:1fr}.panel.wide{grid-column:auto}.stats{gap:8px}.stat{padding:11px}.stat strong{font-size:21px}.mobile-nav{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:10;background:#fff;border-top:2px solid var(--ink);justify-content:space-around;padding:7px 3px calc(7px + env(safe-area-inset-bottom));box-shadow:0 -5px 15px #20577f18}.mobile-nav button{border:0;background:transparent;display:grid;gap:2px;justify-items:center;color:var(--muted);font-size:9px;font-weight:900;padding:3px}.mobile-nav button span{font-size:19px}.mobile-nav button.active{color:var(--deep)}.profile-form{grid-template-columns:1fr}.profile-form .full{grid-column:auto}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="topbar">
+ <div class="brand"><div class="logo">✦</div><div><h1>MAIN CHARACTER</h1><small>YOUR LIFE, YOUR LITTLE UNIVERSE_</small></div></div>
+ <div class="top-actions"><button class="pill" id="exportBtn">↗ EXPORT DATA</button><button class="pill yellow" id="resetBtn">↻ RESET</button></div>
+</header>
+<div class="layout">
+<aside class="sidebar">
+ <div class="side-label">YOUR CONTROL PANEL</div><nav class="nav" id="sideNav">
+  <button class="active" data-view="home"><span class="ico">⌂</span> Overview</button>
+  <button data-view="planner"><span class="ico">▣</span> Daily planner</button>
+  <button data-view="habits"><span class="ico">✳</span> Habit tracker</button>
+  <button data-view="money"><span class="ico">＄</span> Money tracker</button>
+  <button data-view="goals"><span class="ico">☆</span> Goals</button>
+  <button data-view="journal"><span class="ico">♡</span> Mood journal</button>
+  <button data-view="fun"><span class="ico">☻</span> Fun corner</button>
+  <button data-view="profile"><span class="ico">◉</span> My profile</button>
+ </nav>
+ <div class="sidebar-note">✦ REMINDER<br>You are not behind. You're literally the main character. Keep going.</div>
+</aside>
+<main>
+<section class="hero"><div><div class="eyebrow">WELCOME BACK, LEGEND ✦</div><h2 id="greeting">Today is yours.</h2><p id="heroLine">A fresh page. Make it count.</p></div><div class="hero-date"><div id="todayDate"></div><strong id="todayTime"></strong></div></section>
+<section class="view active" id="view-home">
+ <div class="stats">
+  <div class="stat"><span class="s-icon">☑</span><strong id="statTasks">0/0</strong><span>TASKS DONE TODAY</span></div>
+  <div class="stat"><span class="s-icon">✳</span><strong id="statHabits">0%</strong><span>HABITS COMPLETED</span></div>
+  <div class="stat"><span class="s-icon">☆</span><strong id="statGoals">0</strong><span>ACTIVE GOALS</span></div>
+  <div class="stat"><span class="s-icon">⚡</span><strong id="statStreak">0</strong><span>HABIT CHECKS TODAY</span></div>
+ </div>
+ <div class="grid">
+  <article class="panel"><div class="panel-head"><div><div class="eyebrow">GET IT DONE</div><h3>Today's tasks</h3></div><button class="btn small" data-go="planner">VIEW ALL ↗</button></div><div id="homeTasks" class="task-list"></div></article>
+  <article class="panel"><div class="panel-head"><div><div class="eyebrow">TINY WINS ADD UP</div><h3>Habit check-in</h3></div><button class="btn small" data-go="habits">TRACK ↗</button></div><div id="homeHabits" class="habit-list"></div></article>
+  <article class="panel"><div class="panel-head"><div><div class="eyebrow">MONEY MOOD</div><h3>This month's snapshot</h3></div><button class="btn small" data-go="money">DETAILS ↗</button></div><div class="money-total" id="homeBalance">₹0</div><div class="money-sub">NET BALANCE · INCOME MINUS EXPENSES</div><div class="money-bars"><div class="money-bar"><small>INCOME</small><strong class="positive" id="homeIncome">₹0</strong></div><div class="money-bar"><small>SPENT</small><strong class="negative" id="homeExpense">₹0</strong></div></div></article>
+  <article class="panel"><div class="panel-head"><div><div class="eyebrow">A LITTLE NUDGE</div><h3>Daily inspiration</h3></div><span>✦</span></div><div class="quote" id="homeQuote">You don't have to be perfect to make progress.</div><button class="btn yellow small" id="newQuote">NEW QUOTE ↻</button></article>
+ </div>
+</section>
+<section class="view" id="view-planner"><div class="grid">
+ <article class="panel wide"><div class="panel-head"><div><div class="eyebrow">PLAN YOUR PLOT</div><h3>Daily planner</h3></div><span class="tag" id="taskCount">0 TASKS</span></div>
+ <form id="taskForm" class="form-row"><input class="field" id="taskInput" placeholder="Add a task for today..." required><select class="field" id="taskPriority" style="max-width:125px"><option>Normal</option><option>High</option><option>Low</option></select><button class="btn yellow">ADD +</button></form><div id="taskList" class="task-list"></div>
+ </article></div></section>
+<section class="view" id="view-habits"><div class="grid">
+ <article class="panel"><div class="panel-head"><div><div class="eyebrow">BUILD YOUR ROUTINE</div><h3>Habit tracker</h3></div><span class="tag" id="habitDate"></span></div><form id="habitForm" class="form-row"><input class="field" id="habitInput" placeholder="e.g. Read 10 pages" required><button class="btn yellow">ADD +</button></form><div id="habitList" class="habit-list"></div></article>
+ <article class="panel"><div class="eyebrow">CONSISTENCY CLUB</div><h3>Today's progress</h3><div style="font-size:34px;font-weight:1000;margin:10px 0" id="habitPercent">0%</div><div class="progress"><span id="habitProgress" style="width:0%"></span></div><p class="money-sub" style="margin-top:12px">Small steps count. Check off each habit when you complete it.</p></article>
+ </div></section>
+<section class="view" id="view-money"><div class="grid">
+ <article class="panel"><div class="eyebrow">KNOW YOUR NUMBERS</div><h3>Money tracker</h3><div class="money-total" id="moneyBalance">₹0</div><div class="money-sub">YOUR CURRENT NET BALANCE</div><div class="money-bars"><div class="money-bar"><small>INCOME</small><strong class="positive" id="moneyIncome">₹0</strong></div><div class="money-bar"><small>EXPENSES</small><strong class="negative" id="moneyExpense">₹0</strong></div></div>
+ <form id="moneyForm"><div class="form-row"><input class="field" id="moneyTitle" placeholder="What was it for?" required></div><div class="form-row"><input class="field" id="moneyAmount" type="number" min="1" step=".01" placeholder="Amount ₹" required><select class="field" id="moneyType"><option value="expense">Expense</option><option value="income">Income</option></select></div><button class="btn yellow">SAVE TRANSACTION +</button></form></article>
+ <article class="panel"><div class="eyebrow">THE RECEIPTS</div><h3>Recent transactions</h3><div class="entry-list" id="moneyList"></div></article>
+ </div></section>
+<section class="view" id="view-goals"><div class="grid">
+ <article class="panel"><div class="eyebrow">BIG DREAMS, TINY STEPS</div><h3>Goal tracker</h3><form id="goalForm"><div class="form-row"><input class="field" id="goalTitle" placeholder="What's the goal?" required></div><div class="form-row"><input class="field" id="goalTarget" type="number" min="1" placeholder="Target (e.g. 30)" required><input class="field" id="goalUnit" placeholder="Unit (days, books...)" required></div><button class="btn yellow">CREATE GOAL +</button></form></article>
+ <article class="panel"><div class="eyebrow">FUTURE YOU SAYS THANKS</div><h3>Your goals</h3><div id="goalList"></div></article>
+ </div></section>
+<section class="view" id="view-journal"><div class="grid">
+ <article class="panel"><div class="eyebrow">CHECK IN WITH YOURSELF</div><h3>How are you feeling?</h3><div class="moods" id="moodPicker">
+  <button class="mood" data-mood="Amazing">🤩<span>AMAZING</span></button><button class="mood" data-mood="Good">😊<span>GOOD</span></button><button class="mood" data-mood="Okay">😐<span>OKAY</span></button><button class="mood" data-mood="Low">🥺<span>LOW</span></button><button class="mood" data-mood="Rough">😵‍💫<span>ROUGH</span></button>
+ </div><form id="journalForm" style="margin-top:13px"><textarea class="field" id="journalText" placeholder="What's on your mind? No judgement here..."></textarea><button class="btn yellow" style="margin-top:9px">SAVE CHECK-IN</button></form></article>
+ <article class="panel"><div class="eyebrow">YOUR LITTLE TIME CAPSULE</div><h3>Past check-ins</h3><div class="entry-list" id="journalList"></div></article>
+ </div></section>
+<section class="view" id="view-fun"><div class="grid">
+ <article class="panel"><div class="eyebrow">WHEN YOU CAN'T DECIDE</div><h3>Life decision wheel</h3><p class="money-sub">Add options separated by commas. Let fate choose.</p><textarea class="field" id="wheelOptions">Go for a walk, Watch a movie, Call a friend, Read something, Make a snack, Take a nap</textarea><button class="btn yellow" id="spinBtn" style="margin-top:9px">SPIN THE WHEEL ✦</button><div class="wheel-result" id="wheelResult">The universe is waiting...</div></article>
+ <article class="panel"><div class="eyebrow">YOUR DAILY SIDE QUEST</div><h3>Random challenge</h3><div class="quote" id="challengeText">Drink a glass of water and stretch for 2 minutes.</div><button class="btn pink" id="newChallenge">GIVE ME ANOTHER ↻</button><hr style="border:0;border-top:1px dashed var(--line);margin:16px 0"><div class="eyebrow">QUICK QUIZ</div><h3 id="quizQuestion">Pick your main-character energy:</h3><div id="quizAnswers" class="entry-list"></div><div id="quizResult" class="money-sub" style="margin-top:10px"></div></article>
+ </div></section>
+<section class="view" id="view-profile"><div class="grid">
+ <article class="panel"><div class="eyebrow">THE STAR OF THE SHOW</div><h3>Your profile</h3><div class="profile" style="margin-top:14px"><div class="avatar" id="profileAvatar">🌟</div><div><h4 id="profileName">Main Character</h4><p id="profileBio">Currently writing my own story.</p></div></div>
+ <form id="profileForm" class="profile-form"><input class="field" id="nameInput" placeholder="Your name"><input class="field" id="avatarInput" placeholder="Avatar emoji" maxlength="4"><input class="field full" id="bioInput" placeholder="A little bio..."><button class="btn yellow full">UPDATE PROFILE</button></form></article>
+ <article class="panel"><div class="eyebrow">PROOF YOU'RE SHOWING UP</div><h3>Your achievements</h3><div id="achievements"></div><p class="money-sub" style="margin-top:13px">Achievements unlock as you use your dashboard. Keep collecting those tiny wins.</p><button class="btn small" id="exportBtn2">EXPORT MY DATA ↗</button></article>
+ </div></section>
+<div class="footer">MADE FOR YOUR MAIN CHARACTER ERA ✦ YOUR DATA STAYS IN THIS BROWSER</div>
+</main></div></div>
+<nav class="mobile-nav" id="mobileNav">
+ <button class="active" data-view="home"><span>⌂</span>HOME</button><button data-view="planner"><span>▣</span>TASKS</button><button data-view="habits"><span>✳</span>HABITS</button><button data-view="money"><span>＄</span>MONEY</button><button data-view="goals"><span>☆</span>GOALS</button><button data-view="journal"><span>♡</span>MOOD</button><button data-view="fun"><span>☻</span>FUN</button><button data-view="profile"><span>◉</span>ME</button>
+</nav>
+<div class="toast" id="toast"></div>
+<script>
+const KEY='mainCharacterOS_v1';
+const today=()=>new Date().toISOString().slice(0,10);
+const defaultState=()=>({tasks:[],habits:[{id:1,name:'Drink enough water',done:{}},{id:2,name:'Move your body',done:{}},{id:3,name:'Read or learn',done:{}}],transactions:[],goals:[],journal:[],profile:{name:'Main Character',avatar:'🌟',bio:'Currently writing my own story.'}});
+let state;
+try{state=JSON.parse(localStorage.getItem(KEY))||defaultState()}catch(e){state=defaultState()}
+function save(){localStorage.setItem(KEY,JSON.stringify(state));renderAll()}
+function id(){return Date.now()+Math.floor(Math.random()*1000)}
+function money(n){return '₹'+Number(n||0).toLocaleString('en-IN',{maximumFractionDigits:2})}
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1900)}
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function go(view){document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id==='view-'+view));document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x.dataset.view===view));window.scrollTo({top:0,behavior:'smooth'})}
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.view)));
+document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
+function renderTasks(){
+ const list=state.tasks;const done=list.filter(t=>t.done).length;
+ const markup=list.length?list.map(t=>`<div class="task ${t.done?'done':''}"><input type="checkbox" data-task="${t.id}" ${t.done?'checked':''}><span class="task-name">${safe(t.name)}</span><span class="tag">${safe(t.priority)}</span><button class="delete" data-del-task="${t.id}" aria-label="Delete task">×</button></div>`).join(''):'<div class="empty">No tasks yet. Add one tiny mission ✦</div>';
+ document.getElementById('taskList').innerHTML=markup;document.getElementById('homeTasks').innerHTML=list.slice(0,4).map(t=>`<div class="task ${t.done?'done':''}"><input type="checkbox" data-task="${t.id}" ${t.done?'checked':''}><span class="task-name">${safe(t.name)}</span></div>`).join('')||'<div class="empty">Your to-do list is gloriously empty.</div>';
+ document.getElementById('taskCount').textContent=list.length+' TASKS';document.getElementById('statTasks').textContent=done+'/'+list.length;
+}
+function renderHabits(){
+ const d=today(),hs=state.habits,done=hs.filter(h=>h.done[d]).length,p=hs.length?Math.round(done/hs.length*100):0;
+ const markup=hs.length?hs.map(h=>`<div class="habit"><input type="checkbox" data-habit="${h.id}" ${h.done[d]?'checked':''}><span class="task-name">${safe(h.name)}</span><span class="habit-meta">${h.done[d]?'DONE ✓':'TODAY'}</span><button class="delete" data-del-habit="${h.id}">×</button></div>`).join(''):'<div class="empty">Add a habit to start your streak.</div>';
+ document.getElementById('habitList').innerHTML=markup;document.getElementById('homeHabits').innerHTML=hs.slice(0,4).map(h=>`<div class="habit"><span>${h.done[d]?'✅':'⬜'}</span><span class="task-name">${safe(h.name)}</span></div>`).join('')||'<div class="empty">No habits added yet.</div>';
+ document.getElementById('habitPercent').textContent=p+'%';document.getElementById('habitProgress').style.width=p+'%';document.getElementById('statHabits').textContent=p+'%';document.getElementById('statStreak').textContent=done;document.getElementById('habitDate').textContent=d;
+}
+function renderMoney(){
+ const income=state.transactions.filter(x=>x.type==='income').reduce((a,x)=>a+x.amount,0),expense=state.transactions.filter(x=>x.type==='expense').reduce((a,x)=>a+x.amount,0),balance=income-expense;
+ ['moneyBalance','homeBalance'].forEach(x=>document.getElementById(x).textContent=money(balance));document.getElementById('moneyIncome').textContent=document.getElementById('homeIncome').textContent=money(income);document.getElementById('moneyExpense').textContent=document.getElementById('homeExpense').textContent=money(expense);
+ document.getElementById('moneyList').innerHTML=state.transactions.length?state.transactions.slice().reverse().slice(0,30).map(x=>`<div class="entry"><span>${safe(x.title)}</span><span class="${x.type==='income'?'positive':'negative'}">${x.type==='income'?'+':'−'}${money(x.amount)}</span><button class="delete" data-del-money="${x.id}">×</button></div>`).join(''):'<div class="empty">No transactions yet. Track your first one.</div>';
+}
+function renderGoals(){
+ document.getElementById('goalList').innerHTML=state.goals.length?state.goals.map(g=>{let p=Math.min(100,Math.round(g.progress/g.target*100));return `<div class="goal"><div class="goal-top"><span>${safe(g.title)}</span><button class="delete" data-del-goal="${g.id}">×</button></div><small>${g.progress} / ${g.target} ${safe(g.unit)} · ${p}%</small><div class="progress"><span style="width:${p}%"></span></div><div style="display:flex;gap:6px;margin-top:9px"><button class="btn small" data-goal-step="${g.id}" data-step="-1">−</button><button class="btn small" data-goal-step="${g.id}" data-step="1">+ PROGRESS</button></div></div>`}).join(''):'<div class="empty">Your future is wide open. Add a goal ✦</div>';
+ document.getElementById('statGoals').textContent=state.goals.length;
+}
+function renderJournal(){
+ document.getElementById('journalList').innerHTML=state.journal.length?state.journal.slice().reverse().slice(0,20).map(j=>`<div class="entry" style="align-items:flex-start"><span style="font-size:20px">${j.emoji}</span><div style="flex:1"><div>${safe(j.mood)} · ${safe(j.date)}</div><div style="font-weight:600;color:var(--muted);margin-top:3px">${safe(j.text||'No note added.')}</div></div><button class="delete" data-del-journal="${j.id}">×</button></div>`).join(''):'<div class="empty">Your check-ins will live here.</div>';
+}
+function renderProfile(){
+ const p=state.profile;document.getElementById('profileName').textContent=p.name;document.getElementById('profileBio').textContent=p.bio;document.getElementById('profileAvatar').textContent=p.avatar;
+ document.getElementById('nameInput').value=p.name;document.getElementById('avatarInput').value=p.avatar;document.getElementById('bioInput').value=p.bio;
+ const achievements=[];if(state.tasks.some(t=>t.done))achievements.push('☑ First task completed');if(state.habits.some(h=>Object.values(h.done).some(Boolean)))achievements.push('✳ Habit builder');if(state.goals.length)achievements.push('☆ Dream setter');if(state.journal.length)achievements.push('♡ Checked in with myself');if(state.transactions.length)achievements.push('＄ Money mindful');if(state.tasks.length>=10)achievements.push('⚡ Task machine');
+ document.getElementById('achievements').innerHTML=achievements.map(a=>`<span class="achievement">${a}</span>`).join('')||'<div class="empty">Your first achievement is waiting.</div>';
+}
+function renderAll(){renderTasks();renderHabits();renderMoney();renderGoals();renderJournal();renderProfile()}
+document.getElementById('taskForm').addEventListener('submit',e=>{e.preventDefault();state.tasks.push({id:id(),name:document.getElementById('taskInput').value.trim(),priority:document.getElementById('taskPriority').value,done:false});document.getElementById('taskInput').value='';save();toast('Task added. You got this!')});
+document.getElementById('habitForm').addEventListener('submit',e=>{e.preventDefault();state.habits.push({id:id(),name:document.getElementById('habitInput').value.trim(),done:{}});document.getElementById('habitInput').value='';save();toast('New habit unlocked ✳')});
+document.getElementById('moneyForm').addEventListener('submit',e=>{e.preventDefault();const amount=Number(document.getElementById('moneyAmount').value);if(!amount||amount<0)return;state.transactions.push({id:id(),title:document.getElementById('moneyTitle').value.trim(),amount,type:document.getElementById('moneyType').value,date:today()});e.target.reset();save();toast('Transaction saved')});
+document.getElementById('goalForm').addEventListener('submit',e=>{e.preventDefault();state.goals.push({id:id(),title:document.getElementById('goalTitle').value.trim(),target:Number(document.getElementById('goalTarget').value),unit:document.getElementById('goalUnit').value.trim(),progress:0});e.target.reset();save();toast('Goal created. Main character energy!')});
+document.getElementById('journalForm').addEventListener('submit',e=>{e.preventDefault();const selected=document.querySelector('.mood.selected');if(!selected){toast('Pick a mood first ✦');return}state.journal.push({id:id(),mood:selected.dataset.mood,emoji:selected.textContent.trim().slice(0,2),text:document.getElementById('journalText').value.trim(),date:today()});document.getElementById('journalText').value='';document.querySelectorAll('.mood').forEach(x=>x.classList.remove('selected'));save();toast('Check-in saved with care ♡')});
+document.getElementById('moodPicker').addEventListener('click',e=>{const b=e.target.closest('[data-mood]');if(!b)return;document.querySelectorAll('.mood').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')});
+document.getElementById('profileForm').addEventListener('submit',e=>{e.preventDefault();state.profile={name:document.getElementById('nameInput').value.trim()||'Main Character',avatar:document.getElementById('avatarInput').value.trim()||'🌟',bio:document.getElementById('bioInput').value.trim()||'Currently writing my own story.'};save();toast('Profile glow-up complete ✦')});
+document.body.addEventListener('change',e=>{if(e.target.matches('[data-task]')){const t=state.tasks.find(x=>x.id==e.target.dataset.task);if(t)t.done=e.target.checked;save()}if(e.target.matches('[data-habit]')){const h=state.habits.find(x=>x.id==e.target.dataset.habit);if(h)h.done[today()]=e.target.checked;save()}});
+document.body.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;
+ if(d.delTask){state.tasks=state.tasks.filter(x=>x.id!=d.delTask);save()}
+ if(d.delHabit){state.habits=state.habits.filter(x=>x.id!=d.delHabit);save()}
+ if(d.delMoney){state.transactions=state.transactions.filter(x=>x.id!=d.delMoney);save()}
+ if(d.delGoal){state.goals=state.goals.filter(x=>x.id!=d.delGoal);save()}
+ if(d.delJournal){state.journal=state.journal.filter(x=>x.id!=d.delJournal);save()}
+ if(d.goalStep){const g=state.goals.find(x=>x.id==d.goalStep);if(g)g.progress=Math.max(0,Math.min(g.target,g.progress+Number(d.step)));save()}
+});
+const quotes=['You are allowed to be a beginner at things you want to be great at.','Romanticise the little steps. They are your actual life.','Discipline is remembering what you want.','You do not need a new life. You need a new next step.','Make room for the version of you that you keep imagining.','Progress is progress, even when nobody claps.'];
+const challenges=['Drink a glass of water and stretch for 2 minutes.','Send someone a kind message.','Clear one tiny messy corner.','Take a 10-minute walk without scrolling.','Write down one thing you handled well.','Learn one new word or fact.','Put your phone away for 15 minutes.','Make yourself a proper snack.'];
+function randomFrom(a){return a[Math.floor(Math.random()*a.length)]}
+document.getElementById('newQuote').onclick=()=>document.getElementById('homeQuote').textContent=randomFrom(quotes);
+document.getElementById('newChallenge').onclick=()=>document.getElementById('challengeText').textContent=randomFrom(challenges);
+document.getElementById('spinBtn').onclick=()=>{const opts=document.getElementById('wheelOptions').value.split(',').map(x=>x.trim()).filter(Boolean);document.getElementById('wheelResult').textContent=opts.length? '✦ '+randomFrom(opts):'Add a few options first!'};
+const quiz=[['Pick your ideal day:',[['A slow morning + a book','Soft-life icon'],['A spontaneous adventure','Chaos coordinator'],['A productive reset','CEO of my life'],['A creative rabbit hole','Dreamy mastermind']]],['Your current superpower:',[['I keep showing up','Quietly unstoppable'],['I make people laugh','The sunshine friend'],['I notice everything','The observant one'],['I dream ridiculously big','Future legend']]]];let qi=0;
+function drawQuiz(){const q=quiz[qi%quiz.length];document.getElementById('quizQuestion').textContent=q[0];document.getElementById('quizResult').textContent='';document.getElementById('quizAnswers').innerHTML=q[1].map((a,i)=>`<button class="btn" data-quiz="${i}" style="text-align:left">${a[0]}</button>`).join('')}
+document.getElementById('quizAnswers').addEventListener('click',e=>{const b=e.target.closest('[data-quiz]');if(!b)return;document.getElementById('quizResult').textContent='Your energy: '+quiz[qi%quiz.length][1][Number(b.dataset.quiz)][1]+' ✦';qi++});
+function exportData(){const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='main-character-os-backup.json';a.click();URL.revokeObjectURL(url);toast('Backup downloaded ↗')}
+document.getElementById('exportBtn').onclick=exportData;document.getElementById('exportBtn2').onclick=exportData;
+document.getElementById('resetBtn').onclick=()=>{if(confirm('Reset everything on this browser? Download a backup first if you want to keep your data.')){state=defaultState();save();toast('Fresh start ✦')}};
+function clock(){const d=new Date();document.getElementById('todayDate').textContent=d.toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric',year:'numeric'}).toUpperCase();document.getElementById('todayTime').textContent=d.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});document.getElementById('greeting').textContent=(d.getHours()<12?'Good morning.':d.getHours()<18?'Good afternoon.':'Good evening.');document.getElementById('heroLine').textContent='A fresh page. Make it count.'}
+clock();setInterval(clock,30000);drawQuiz();renderAll();
+</script>
+</body></html>'''
+
